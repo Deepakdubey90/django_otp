@@ -1,2 +1,3 @@
-# django_otp
-django_otp is a python librarie for OTP intergation in django based application with Twillo messageing service.
+# django otp
+
+django_otp is a python package for OTP intergation in django based application with Twillo messageing service.
