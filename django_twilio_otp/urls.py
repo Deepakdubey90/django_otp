@@ -1,6 +1,7 @@
 from django.conf.urls import url, include
 from rest_framework import routers
-from apps.users import views
+from django_twilio_otp import views
+
 router = routers.DefaultRouter()
 
 """ Urls in Versionwised, In future any make updation for any views please update it as v2..etc """

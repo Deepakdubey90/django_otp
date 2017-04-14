@@ -1,3 +1,3 @@
-# Django OTP
+# django_twilio_otp
 
-Python package for OTP integreation in django based applications with Twillo Messageing service.
+Python package for OTP integreation in django based applications with Twilio Messageing service.

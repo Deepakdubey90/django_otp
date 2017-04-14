@@ -13,7 +13,7 @@ from rest_framework import exceptions
 import random
 
 ## Models
-from apps.users.models import (UserDataTable,UserConfirmationCode,TwilloResponseData)
+from .models import (UserDataTable,UserConfirmationCode,TwilloResponseData)
 
 ## Twillo Messeging Integration
 from twilio.rest import Client as TC

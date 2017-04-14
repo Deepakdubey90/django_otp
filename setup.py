@@ -8,7 +8,7 @@ from setuptools import setup
 
 PY3 = os.environ.get('BUILD_VERSION') == '3' or sys.version_info[0] == 3
 
-version = "0.1"
+version = "0.1.1"
 
 LONG_DESCRIPTION = """
 OTP integreation in django with Twilio Messageing service.
@@ -44,7 +44,7 @@ def get_packages():
 requirements = ['twilio','djangorestframework']
 
 setup(
-    name='django_otp',
+    name='django_twilio_otp',
     version=version,
     author='Renjith S Raj',
     author_email='renjithsraj@live.com',
